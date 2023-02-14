@@ -54,7 +54,7 @@ type OverlappingKey5 struct {
 	Recursive1
 }
 
-func TestMimic_overlapping_key(t *testing.T) {
+func TestJsonIter_behavioral_deference(t *testing.T) {
 	for _, config := range []jsoniter.API{
 		jsoniter.ConfigCompatibleWithStandardLibrary,
 		jsoniter.ConfigDefault,
